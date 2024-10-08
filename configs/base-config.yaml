@@ -1,0 +1,45 @@
+points:
+  zones:
+    matrix:
+      anchor:
+        rotate: 6
+      columns:
+        pinkyfar:
+          rows:
+            reach:
+              skip: true
+        pinky:
+          key.splay: -1
+          key.stagger: 5
+        ring:
+          key.splay: -4
+          key.origin: [0, -6]
+          key.stagger: 13
+        middle:
+          key.splay: -1
+          key.stagger: 3
+        index:
+          key.splay: -1
+          key.stagger: -7
+        inner:
+          key.splay: -1
+          key.stagger: -3
+      rows:
+        bottom:
+        home:
+        top:
+        reach:
+    thumbfan:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-25, -19]
+      columns:
+        inner:
+        near:
+          key.stagger: -2
+        home:
+          key.spread: 18
+          key.splay: -20
+          key.origin: [15, -15]
+      rows:
+        thumb:
